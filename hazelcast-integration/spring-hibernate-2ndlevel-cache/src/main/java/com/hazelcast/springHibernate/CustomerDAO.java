@@ -1,8 +1,8 @@
 package com.hazelcast.springHibernate;
 
-import org.hibernate.Query;
 import org.hibernate.SessionFactory;
 import org.springframework.transaction.annotation.Transactional;
+
 
 import java.util.Collection;
 import java.util.HashMap;
@@ -10,6 +10,7 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
+import org.hibernate.Query;
 
 @Transactional(readOnly = false)
 @SuppressWarnings("unused")

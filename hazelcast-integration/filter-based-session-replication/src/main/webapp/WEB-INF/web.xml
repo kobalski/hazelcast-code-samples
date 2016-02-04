@@ -115,4 +115,8 @@
     <listener>
         <listener-class>com.hazelcast.web.SessionListener</listener-class>
     </listener>
+
+    <listener>
+        <listener-class>com.hazelcast.HazelcastSessionReplication.MyServletContextAttributesListener</listener-class>
+    </listener>
 </web-app>
